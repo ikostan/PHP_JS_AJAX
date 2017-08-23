@@ -1,0 +1,119 @@
+#main{
+	
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.btn{
+	
+	margin: auto;
+	margin-bottom: 2px;
+	text-align: center;
+	width: 12%;
+	border: 3px solid #615a5f;
+	border-radius: 8px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color:#bbb7ba;
+}
+
+.btn:hover{
+	
+	background-color: black;
+	color: white;
+}
+
+a{
+	
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover{
+	
+	color: white;
+}
+
+#menu{
+	
+	margin: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.mitem{
+
+	font-size: 1.1em;
+	border: 1px solid #947e91;
+	border-radius: 2px;
+	background-color: #dad8da;
+	padding-right: 0.5%;
+	padding-left: 0.5%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+
+.mitem: hover{
+
+	background-color: #000000;
+}
+
+.mitem_sub{
+	
+	display: none;
+}
+
+body{
+	
+	border: 1px solid #b0a6a9;
+	padding-left: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 1%;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 1%;
+	display: block;
+ 	width: 60%;
+  	height: 90%;
+}
+
+table{
+
+	border: 4px solid #b0a6a9;
+	border-collapse: collapse;
+	margin-bottom: 2%;
+}
+
+td {
+
+	border: 2px solid #b0a6a9;
+	padding: 15px;
+}
+
+td:hover{
+	
+	background-color:#dd0000;
+}
+
+th{
+
+	border: 2px solid #b0a6a9;
+	background-color:#464245;
+	padding: 15px;
+	color: white;
+}
+
+tr:hover{
+	
+	background-color: #000000;
+	color:#ffffff;
+}
+
+
+.review{
+	
+	width: 75%;
+}
+

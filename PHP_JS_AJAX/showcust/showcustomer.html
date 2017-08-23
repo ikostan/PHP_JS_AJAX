@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Orders Search</title>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  
+  <!-- Including jQuery is required. -->
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+ 
+   <!-- Including our scripting file. -->
+   <script type="text/javascript" src="script.js"></script>
+   
+</head>
+
+<body>
+
+	<div id="menu">
+	
+		<span class="mitem"><a href="../index.html">Home</a></span>
+		<span class="mitem"><a href="../showtab/showtable.html">Show All Tables</a></span>
+		<span class="mitem"><a href="../showprice/showprice.html">Show Price</a></span>
+		<span class="mitem"><a href="../showcust/showcustomer.html">Find a Customer: Ajax</a></span>
+		<span class="mitem"><a href="../showcust/showcust.php">Find a Customer: PHP</a></span>
+					
+	</div>
+
+  <h1>Customers Search (Ajax implementation)</h1>
+
+  <form action="showcust.php" method="post">
+  
+  <p><strong>Enter Telephone Number:</strong><br />
+  <input name="searchterm" id="searchterm" pattern="[0-9]{12}" type="text" size="12"></p>
+
+  <!-- <p><input type="submit" name="submit" value="Search"></p> -->
+  </form>
+  
+  <div id="display"></div>
+
+
+</body>
+</html>
+

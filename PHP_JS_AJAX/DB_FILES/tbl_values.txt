@@ -1,0 +1,39 @@
+
+INSERT INTO books VALUES
+  ('Java 2 for Professional Developers', '0-672-31697-8', 'Michael Morgan',  34.99),
+  ('Installing Debian GNU\Linux', '0-672-31745-1', 'Thomas Down', 24.99),
+  ('Teach Yourself GIMP in 24 Hours', '0-672-31509-2', 'Pruitt, et al.', 24.99),
+  ('Caldera OpenLinux System Administration Unleashed', '0-672-31769-9', 'Thomas Schenk', 49.99);
+  
+INSERT INTO customers VALUES
+  (NULL, 'Smith', 'Julie', '25 Oak Street', 'Airport West', '422-534-6790'),
+  (NULL, 'Wong', 'Alan', '1\47 Haines Avenue', 'Box Hill', '867-234-7876'),
+  (NULL, 'Arthur', 'Michelle', '357 North Road', 'Yarraville', '321-786-4577'),
+(NULL, 'Will', 'Smith', '25 First Street', 'New West', '077-534-6790'),
+(NULL, 'Charley', 'Mullinax', '456 Oak Street', 'Burnaby', '986-233-5231'),
+(NULL, 'Tyler', 'Antes', '456 Noname Street', 'Vancouver', '831-534-1234'),
+(NULL, 'Karma', 'Blomquist', '222 Oak Street', 'New York', '745-123-6578'),
+(NULL, 'Millicent', 'Santi', '25 Funny Street', 'London', '634-678-8987'),
+(NULL, 'Jona', 'Leo', '564 Oak Street', 'Paris', '523-978-6790'),
+(NULL, 'Dusti', 'Medellin', '789 Haines Avenue', 'Berlin', '378-588-2352'),
+(NULL, 'Laureen', 'Deschamp', '234 North Road', 'Moscow', '265-456-8978'),
+(NULL, 'Madalyn', 'Sienkiewicz', '895 Yarraville Street', 'Totonto', '187-867-2342');
+  
+INSERT INTO books_reviews VALUES
+  ('The Morgan book is clearly written and goes well beyond most of the basic Java books out there.', '0-672-31697-8'),
+  ('This book is the best distro-agnostic foundational Linux reference I\'ve ever seen, out of dozens of Linux-related books I\'ve read. It\'s a constant battle to find a good Linux book that isn\'t wedded implicitly or explicitly to a specific distribution (usually something Red Hat related), more about KDE and GNOME applications and other specific applications the authors favor than about real Linux skills, or both. Finding this book was a real stroke of luck. If you want to really understand how to get things done at the command line, where the power and flexibility of free unixlike OSes really live, this book is among the best tools you\'ll find toward that end. About the only way it could be better is to be released under an open documentation license.', '0-672-31745-1'),
+  ('GIMP is a free alternative to Adobe Photoshop with tons of professional-grade features. But with so many powerful tools and menu options, GIMP can be difficult to master. Whether you\'re struggling to get started or trying to master some of GIMP\'s more complex features, you\'ll find the answers you\'re looking for in The Book of GIMP.', '0-672-31509-2'),
+  ('This book is fun and functional as a desktop reference. If you use UNIX and Linux systems, you need this book in your short-reach library. It covers a bit of the systems\' history but doesn\'t bloviate. It\'s just straightfoward information delivered in colorful and memorable fashion.', '0-672-31769-9');
+  
+INSERT INTO orders VALUES
+  (800, 3, '2017-04-02'),
+  (805, 1, '2017-04-15'),
+  (810, 2, '2017-04-19'),
+  (815, 3, '2017-05-01');
+  
+INSERT INTO order_items VALUES
+  ('0-672-31697-8', 800, 2),
+  ('0-672-31769-9', 805, 1),
+  ('0-672-31769-9', 810, 1),
+  ('0-672-31509-2', 810, 1),
+  ('0-672-31745-1', 815, 3);
